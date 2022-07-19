@@ -15,7 +15,7 @@ See 'A3_Specification' for the competition policy and application walk-through i
 
 To run this console application in NORMAL MODE:
 <ol>
-  <li> Download the Java code files in the "A2" folder </li>
+  <li> Download the Java code files in the "A3" folder </li>
   <li> Open a console and navigate to the project directoty (where the .java classes reside) </li>
   <li> Run and complile the program with: <code> javac *.java </code> </li>
   <li> Run the command: <code> java SimpleCompetitions </code> </li>
@@ -23,13 +23,14 @@ To run this console application in NORMAL MODE:
 
 To run this console application in TESTING MODE:
 <ol>
-  <li> Download the Java code files in the "A2" folder </li>
-  <li> Download the test files (including input and output) in the "A2-test-cases" folder </li>
+  <li> Download the Java code files in the "A3" folder </li>
+  <li> Download the test files (including input and output) in the "A3-test-cases" folder </li>
   <li> Place the text input data files in the same directory as your project directory (where the .java classes reside) </li>
   <li> Open a console and navigate to the project directory </li>
   <li> Run and complile the program with: <code> javac *.java </code> </li>
   <li> Run the command: <code> java SimpleCompetitions < input1.txt > my-output1.txt </code> <br> 
   (This will run SimpleCompetitions using contents in "input1.txt" as input and write the output to "my-output1.txt". </li>
   <li> Inpect the file "my-output1.txt" with the provided output files (e.g.output1.txt) to test that the program is working as intended </li>
-  <li> Repeat steps 6 and 7 to test all given input and output pairs </li>
+  <li> Repeat steps 6 and 7 to test all given input and output pairs. <br>
+  <b>NOTE </b> that test cases 6, 7 and 8 must be run in order. Moreover, test cases 1 to 6 should be run with the original bill file (i.e., bills.csv) </li>
 </ol>
