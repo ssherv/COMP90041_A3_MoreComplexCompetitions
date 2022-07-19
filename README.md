@@ -25,7 +25,8 @@ To run this console application in TESTING MODE:
 <ol>
   <li> Download the Java code files in the "A3" folder </li>
   <li> Download the test files (including input and output) in the "A3-test-cases" folder </li>
-  <li> Place the text input data files in the same directory as your project directory (where the .java classes reside) </li>
+  <li> Download the CSV files (including bills.csv and members.csv) in the "A3-CSV" folder </li>
+  <li> Place all files in the same directory as your project directory (where the .java classes reside) </li>
   <li> Open a console and navigate to the project directory </li>
   <li> Run and complile the program with: <code> javac *.java </code> </li>
   <li> Run the command: <code> java SimpleCompetitions < input1.txt > my-output1.txt </code> <br> 
